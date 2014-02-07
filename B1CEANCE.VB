@@ -136,9 +136,16 @@ Public Class FR1CEANCE
   Public Overridable Sub tlb4DArch_ItemClick(ByVal sender As System.Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles tlb4DArch.ItemClick
     tlbIDoc_Click("4DINSER")
   End Sub
+  
+  ''TEST
 
   Public Overridable Sub tlb4DVis_ItemClick(ByVal sender As System.Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles tlb4DVis.ItemClick
     tlbIDoc_Click("4DVISUA")
+	tlbIDoc_Click("4DVISUA")
+	tlbIDoc_Click("4DVISUA")
+	tlbIDoc_Click("4DVISUA")
+	tlbIDoc_Click("4DVISUA")
+	
   End Sub
 
 #End Region
