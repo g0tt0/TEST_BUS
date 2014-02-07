@@ -131,6 +131,18 @@ Public Class FR1CEANCE
       Dim strErr As String = CLN__STD.GestError(ex, Nothing, "", oApp.InfoError, oApp.ErrorLogFile, True)
     End Try
     Return Nothing
+  End Function   Catch ex As Exception
+      Dim strErr As String = CLN__STD.GestError(ex, Nothing, "", oApp.InfoError, oApp.ErrorLogFile, True)
+    End Try
+    Return Nothing
+  End Function   Catch ex As Exception
+      Dim strErr As String = CLN__STD.GestError(ex, Nothing, "", oApp.InfoError, oApp.ErrorLogFile, True)
+    End Try
+    Return Nothing
+  End Function   Catch ex As Exception
+      Dim strErr As String = CLN__STD.GestError(ex, Nothing, "", oApp.InfoError, oApp.ErrorLogFile, True)
+    End Try
+    Return Nothing
   End Function
 
   Public Overridable Sub tlb4DArch_ItemClick(ByVal sender As System.Object, ByVal e As DevExpress.XtraBars.ItemClickEventArgs) Handles tlb4DArch.ItemClick
